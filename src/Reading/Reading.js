@@ -2,8 +2,15 @@ import Header from "../Header/Header";
 import "./Reading.css";
 import data from "../data";
 import Footer from "../Footer/Footer";
+import { useEffect } from "react";
 
 function Reading() {
+  useEffect(()=>{
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth' // for smoothly scrolling
+    });
+  })
   return (
     <>
       <Header />
