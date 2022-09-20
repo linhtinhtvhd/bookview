@@ -27,7 +27,7 @@ a{
     font-weight: 600;
 }
 .read-content{
-    height: 500px;
+    height: 600px;
     overflow-y: scroll;
     padding: 0 10px 0 30px;
 
