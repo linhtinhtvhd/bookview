@@ -1,0 +1,27 @@
+.footer{
+background-color: #ffb806;
+color: #582e17;
+margin-top: 40px;
+   
+}
+.wraper-footer{
+    width: 1250px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-left p{
+     margin: 8px 0;
+}
+.footer-right p{
+    margin: 6px 0;
+}
+.qrcode{
+    display: flex;
+}
+.img-qr{
+    width: 60px;
+    object-fit: contain;
+    margin-right: 30px;
+}
